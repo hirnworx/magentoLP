@@ -7,7 +7,7 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	$youremail = 'mail@runourcode.com';  
 
 	// prepare message 
-	$body = "Sie haben eine neue Shopware Anfrage über shopware6Partner.de :
+	$body = "Sie haben eine neue Magento Anfrage über Magento6Partner.de :
 	
 	Name:  $_POST[name]
 	Phone Number:  $_POST[number]
@@ -20,7 +20,7 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	  $headers = "From: $youremail";
 	}
 
-	mail($youremail, 'Neue Shopware 6 Anfrage', $body, $headers );
+	mail($youremail, 'Neue Magento 6 Anfrage', $body, $headers );
 
 }
 
