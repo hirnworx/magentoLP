@@ -18,11 +18,9 @@ class UpdateWikiCityDataSeeder extends Seeder
         $cities = City::all();
         foreach ($cities as $key => $value) {
             DB::table('cities')->where("id",$value->id)->update([
-                'wikipedia_city_name' => $value->city_name
+                'wikipedia_city_name' => trim($value->city_name)
             ]);
         }
-
-
 
         DB::table('cities')->where('wikipedia_city_name', 'Ludwigshafen')->update(['wikipedia_city_name' => 'Ludwigshafen_am_Rhein']);
         DB::table('cities')->where('wikipedia_city_name', 'Artern/Unstrut')->update(['wikipedia_city_name' => 'Artern']);
@@ -31,11 +29,11 @@ class UpdateWikiCityDataSeeder extends Seeder
         DB::table('cities')->where('wikipedia_city_name', 'Königsee-Rottenbach')->update(['wikipedia_city_name' => 'Königsee']);
         DB::table('cities')->where('wikipedia_city_name', 'Oberweißbach/Thür. Wald')->update(['wikipedia_city_name' => 'Oberweißbach/Thüringer_Wald']);
         DB::table('cities')->where('wikipedia_city_name', 'Rothenburg/O.L.')->update(['wikipedia_city_name' => 'Rothenburg/Oberlausitz']);
-        DB::table('cities')->where('wikipedia_city_name', 'Rottenburg a.d.Laaber')->update(['wikipedia_city_name' => 'Rottenburg an der Laaber']);
+        DB::table('cities')->where('wikipedia_city_name', 'Rottenburg a.d.Laaber')->update(['wikipedia_city_name' => 'Rottenburg_an_der_Laaber']);
         DB::table('cities')->where('wikipedia_city_name', 'Stollberg/Erzgeb.')->update(['wikipedia_city_name' => 'Stollberg/Erzgebirge']);
-        DB::table('cities')->where('wikipedia_city_name', 'Tessin')->update(['wikipedia_city_name' => 'Kanton Tessin']);
+        DB::table('cities')->where('wikipedia_city_name', 'Tessin')->update(['wikipedia_city_name' => 'Kanton_Tessin']);
         DB::table('cities')->where('wikipedia_city_name', 'Weißwasser/O.L.')->update(['wikipedia_city_name' => 'Weißwasser/Oberlausitz']);
-        DB::table('cities')->where('wikipedia_city_name', 'Wittenberg')->update(['wikipedia_city_name' => 'Lutherstadt Wittenberg']);
+        DB::table('cities')->where('wikipedia_city_name', 'Wittenberg')->update(['wikipedia_city_name' => 'Lutherstadt_Wittenberg']);
       
 
     }
