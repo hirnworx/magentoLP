@@ -556,6 +556,17 @@
     
     <!-- features section ends
   ================================================== --> 
+
+  <section id="features" class="dtr-pt-7 dtr-pb-5 bg-white">
+    <div class="container">
+        <h2 class="text-center">Mehr Informationen über den Standort {{$city}}</h2>
+        <div class="row mt-5"> 
+            {!!$city_discription!!}
+          
+            
+        </div>
+    </div>
+</section>
     
     <!-- blog section starts
   ================================================== -->

@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #F06829; }
 .bg-light-blue { background-color: #F0A07B; }
 .bg-dark-blue { background-color: #EA0F00 }
 .bg-grey { background-color: #f7f6fb }
-.bg-trans-dark-blue { background-color: #EA0F00); }
+.bg-trans-dark-blue { background-color: #EA0F00 }
 /*== Sections background images ==*/
 .hero-default-bg { background-image: url(../images/hero-trans.png), url(../images/hero-bottom.png); background-repeat: no-repeat no-repeat; background-position: center top, center bottom; }
 .quote-section { background-image: url(../images/section-bg.jpg); background-repeat: no-repeat; background-position: center bottom; background-size: cover; }
