@@ -18,7 +18,7 @@
                 <ul class="dtr-scrollspy navbar-nav ml-auto">
                     <li class="nav-item"> <a class="nav-link" href="https://www.magentopartner.de">Magento Home</a> </li>                
             <!-- button here -->
-            <div class="dtr-btn ml-4 d-none d-lg-block"> <a href="tel:09101-7018296">09101-7018296 <span><i class="icon-phone-call" aria-hidden="true"></i></span> </a> </div>
+            <div class="dtr-btn ml-4 d-none d-lg-block"> <a href="tel:09101 4789320">09101 4789320 <span><i class="icon-phone-call" aria-hidden="true"></i></span> </a> </div>
             <!-- button ends --> 
         </div>
     </nav>
@@ -121,7 +121,7 @@
                     <br>
                     mail@tridhya.de
                     <br>
-                    +49(0)9101-7018296
+                    +49(0)9101 4789320
                 </p>
             </div>
             <div>

@@ -32,7 +32,7 @@
                 <!-- menu ends--> 
                 
                 <!-- button here -->
-                <div class="dtr-btn ml-4 d-none d-lg-block"> <a href="tel:09101-7018296">09101-7018296 <span><i class="icon-phone-call" aria-hidden="true"></i></span> </a> </div>
+                <div class="dtr-btn ml-4 d-none d-lg-block"> <a href="tel:09101 4789320">09101 4789320 <span><i class="icon-phone-call" aria-hidden="true"></i></span> </a> </div>
                 <!-- button ends --> 
             </div>
         </nav>
