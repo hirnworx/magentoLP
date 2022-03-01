@@ -20,7 +20,7 @@
             <!-- menu ends--> 
             
             <!-- button here -->
-            <div class="dtr-btn ml-4 d-none d-lg-block"> <a href="tel:09101 4789320">09101 4789320 <span><i class="icon-phone-call" aria-hidden="true"></i></span> </a> </div>
+            <div class="dtr-btn ml-4 d-none d-lg-block"> <a href="tel:+49(0)91014789320">09101 4789320 <span><i class="icon-phone-call" aria-hidden="true"></i></span> </a> </div>
             <!-- button ends --> 
         </div>
     </nav>
@@ -105,12 +105,12 @@
       		<p><strong>Tridhya Tech GmbH</strong><br />
 			Nürnberger Straße 46 <br />
 			90579 Langenzenn, Deutschland<br /></p><p>
-			Telefon: +49(0)9101 4789320<br />
+			<a href="Tel:+49(0)91014789320">+49(0)91014789320</a><br />
 
 			E-Mail: mail@tridhya.de<br /></p><p>Vertreten durch : Thomas Joachim Nautsch, David De Matteo, Tridhya Tech Private Ltd  <br /></p><p><strong>Registereintrag:</strong><br />
 			Eingetragen im Handelsregister<br />
 
-			Handelsregister Nummer: In Gründung<br /></p><p>
+			Handelsregister Nummer: HRB 19363<br /></p><p>
 			Betriebsnummer: 82112865    <br />
 			<br /></p><p>Dieses Impressum wurde erstellt durch <a href="https://www.datenschutzexperte.de">www.datenschutzexperte.de</a></p>
         </div>
