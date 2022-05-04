@@ -34,7 +34,8 @@ class UserController extends Controller
                 return redirect('/');       
             }
             $city_url = $findcity->city_name;
-            $city =$findcity->city_name;
+            $city = $findcity->city_name;
+            $title = 'Magento Agentur - ' . $city . ' - Jetzt auf Magento 2 umsteigen';
             $citymeta = $findcity->meta_description;
             $city_discription = $findcity->city_discription;
         }
