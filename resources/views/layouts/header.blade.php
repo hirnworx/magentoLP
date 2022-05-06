@@ -10,6 +10,14 @@
 <meta name="description" content="{{$citymeta}}">
 <meta name="keywords" content="magento, shopsystem Germany, E-Commerce, ecommerce, magento agency, magento Germany, magento2 Germany, magento landing, creative, works, showcase, portfolio, projects, modern, agency, freelancers, dedicated developer magento">
 
+<!-- Leadinfo tracking code -->
+<script>
+(function(l,e,a,d,i,n,f,o){if(!l[i]){l.GlobalLeadinfoNamespace=l.GlobalLeadinfoNamespace||[];
+l.GlobalLeadinfoNamespace.push(i);l[i]=function(){(l[i].q=l[i].q||[]).push(arguments)};l[i].t=l[i].t||n;
+l[i].q=l[i].q||[];o=e.createElement(a);f=e.getElementsByTagName(a)[0];o.async=1;o.src=d;f.parentNode.insertBefore(o,f);}
+}(window,document,"script","https://cdn.leadinfo.net/ping.js","leadinfo","LI-6274FBDCDA546"));
+</script>
+
 <!-- FAVICON FILES -->
 <link href="{{asset('images/icons/apple-touch-icon-144-precomposed.png')}}" rel="apple-touch-icon" sizes="144x144">
 <link href="{{asset('images/icons/apple-touch-icon-120-precomposed.png')}}" rel="apple-touch-icon" sizes="120x120">
